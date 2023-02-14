@@ -10,8 +10,8 @@ public class Perro {
 		mostrarHambre(hambre);
 		int alegria = 100;
 		mostrarAlegria(alegria);
-		int melancolia = 100;
-		mostrarTristeza(melancolia);
+		int suciedad = 56;
+		mostrarSuciedad(suciedad);
 		int diversion = 75;
 		mostrarDiversion(diversion);
 	}
@@ -19,13 +19,13 @@ public class Perro {
 	public static void mostrarNivelSueño(int sueño) {
 		
 		if (sueño >=75){
-			System.out.println( "tengo mucho sueño");
+			System.out.println( "No tengo sueño");
 		}
 		else if (sueño >=50) {
 			System.out.println("tengo algo de sueño");
 		}
 		else {
-			System.out.println("No tengo sueño");
+			System.out.println("Tengo mucho sueño");
 		}
 
 }	
@@ -35,7 +35,7 @@ public class Perro {
     	 if(hambre <= 30) {
     		 System.out.println("tengo mucha hambre");
     	 }
-    	 else if (hambre <=60){
+    	 else if (hambre <=50){
     		 System.out.println("tengo algo de hambre");
     		 
     	 }
@@ -48,10 +48,10 @@ public class Perro {
      public static void mostrarAlegria(int alegria) {
     	 
     	 if(alegria >= 75) {
-    		 System.out.println("me siento muy eliz");
+    		 System.out.println("me siento demasiado feliz");
     	 }
     	 else if (alegria >=50){
-    		 System.out.println("estoy feliz, dame amor");
+    		 System.out.println("no estoy tan feliz, dame amor");
     		 
     	 }
     	 
@@ -59,21 +59,21 @@ public class Perro {
     		 System.out.println("estoy triste, kereme sapa");
     	 }
 	}
-     int melancolia = 100;
-     public static void mostrarTristeza(int melancolia) {
+    int suciedad = 100;
+     public static void mostrarSuciedad(int suciedad) {
     	 
-    	 if(melancolia >=80) {
-    		 System.out.println("Llevenme a otro hogar");
+    	 if(suciedad <= 25) {
+    		 System.out.println("Estoy muy sucio, bañame porfa");
     	 }
-    	 else if (melancolia >=60) {
-    		 System.out.println("Realmente me quieres?");
+    	 else if (suciedad <= 55 ) {
+    		 System.out.println("Estoy un poco sucio no crees?");
     	 }
-    	 else if (melancolia >=20) {
-    		 System.out.println("necesito que me des amor");
+    	 else if (suciedad <= 75 ) {
+    		 System.out.println("aun estoy limpio");
     		 
     	 }
     	 else {
-    		 System.out.println("aun esta contento");
+    		 System.out.println("Estoy muy limpio,no me bañes");
     	 }
      }
      int diversion = 100;
@@ -86,13 +86,15 @@ public class Perro {
     		 System.out.println("Es divertido");
     		 
     	 }
-    	 
+    	 else if (diversion >= 30 ) {
+    		 System.out.println("Todo bien");
+    	 }
+    
     	 else {
-    		 System.out.println("Todo bien ");
+    		 System.out.println("Estoy muy aburrido");
     	 }
      }
-	
-}
+	}
 
 
 
