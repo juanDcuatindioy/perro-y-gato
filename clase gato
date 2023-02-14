@@ -3,7 +3,7 @@ codigo de gato con metodos
 package perroo;
 public class gato {
   public static void main(String[] args) {
-		// juan david Cuatindioy, leydi Cuasquer 
+		// Juan David Cuatindioy, Leidy Cuasquer 
 		int sueño = 10;
 		mostrarNivelSueño(sueño);
 		int hambre = 50;
@@ -47,16 +47,19 @@ public class gato {
      int alegria = 100;
      public static void mostrarAlegria(int alegria) {
     	 
-    	 if(alegria >= 75) {
-    		 System.out.println("me siento muy eliz");
+    	 if(alegria <= 15) {
+    		 System.out.println("Estoy triste :(");
     	 }
-    	 else if (alegria >=50){
-    		 System.out.println("estoy feliz, dame amor");
+    	 else if (alegria <= 49){
+    		 System.out.println("No me siento tan feliz :/");
     		 
     	 }
-    	 
+	 
+	 else if (alegria >= 75){
+	        System.out.println("Estoy feliz :3");
+		
     	 else {
-    		 System.out.println("estoy triste, kereme sapa");
+    		 System.out.println("Estoy muy feliz :) ");
     	 }
 	}
      int melancolia = 100;
